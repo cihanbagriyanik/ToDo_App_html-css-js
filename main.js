@@ -2,6 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
 let x = []
+localStorage.remove();
 
 function addTask() {
     if (inputBox.value === "") {
